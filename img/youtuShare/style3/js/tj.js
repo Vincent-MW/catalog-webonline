@@ -1,0 +1,1 @@
+jQuery().ready(function(){var C="/uwp/youtuShare/js/updateVisitCount.jsp";var A=$("#shareID").val();var B={"shareID":A};jQuery.get(C,B,updateVisitCountCallBack,"text")});function updateVisitCountCallBack(B,A){};
